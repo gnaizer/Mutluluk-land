@@ -157,3 +157,13 @@ section #important div {
   text-align: center;
   border: 1px solid;
 }
+
+@media only screen and (max-width: 640px) {
+  .information {
+    grid-template-columns: 1fr; 
+  }
+
+  .information div p {
+    border-left: none;
+  }
+}
