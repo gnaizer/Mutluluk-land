@@ -7,7 +7,7 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 7px;
-  background-image: url(../img/background.png);
+  background-image: url(img/background.png);
   background-attachment: fixed;
   font-family: 'Spectral SC', serif;
 }
@@ -24,7 +24,7 @@ nav {
 .burger-menu {
   display: block;
   height: 60px;
-  background: url(../img/menu.png) no-repeat 98% center;
+  background: url(img/menu.png) no-repeat 98% center;
   cursor: pointer;
 }
 
@@ -155,5 +155,5 @@ section #important div {
   margin-top: 10px;
   color: black;
   text-align: center;
-  /*border: 1px solid;*/
+  border: 1px solid;
 }
