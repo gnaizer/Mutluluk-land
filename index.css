@@ -4,7 +4,6 @@
 
 body {
   max-width: 1200px;
-  text-align: center;
   margin: 0 auto;
   padding: 7px;
   background-image: url(img/background.png);
@@ -66,15 +65,24 @@ header nav ul li a {
 
 .information div h1 {
   font-size: 45px;
+  text-align: center;
 }
 
 .information div p {
   border-left: 3px solid #2b4727;
+  text-align: left;
+  text-indent: 25px;
+  padding: 20px;
+}
+
+#important {
+  text-align: center;
 }
 
 .order {
   width: 320px;
-  height: auto;
+  height: 380px;
+  text-align: center;
   display: inline-block;
   border-top: 7px solid #2b4727;
   background-color: #fff;
@@ -86,8 +94,20 @@ header nav ul li a {
   flex-direction: column;
 }
 
+.order div ul {
+  text-align: left;
+  list-style-type: square;
+}
+
+.order div ul li {
+  padding: 10px;
+}
+
+#katalog {
+  text-align: center;
+}
+
 .sticky-container {
-  /*background-color: #333;*/
   padding: 0px;
   margin: 0px;
   position: fixed;
@@ -118,7 +138,7 @@ header nav ul li a {
   -moz-transform: translateX(-115px);
   -o-transform: translateX(-115px);
   -ms-transform: translateX(-115px);
-  transform:translateX(-115px);*/
+  /* transform:translateX(-115px); */
   /*background-color: #8e44ad;*/
   filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
   -webkit-filter: grayscale(0%);
@@ -127,7 +147,7 @@ header nav ul li a {
 .sticky li img {
   float: left;
   margin: 5px 5px;
-  /* margin-right: 10px; */
+  margin-right: 10px;
 }
 
 .sticky li p {
@@ -162,18 +182,17 @@ a {
   margin-top: 10px;
   color: black;
   text-align: center;
-  /* border: 1px solid; */
 }
 
-#katalog h2 {
-  border-bottom: 3px solid #2b4727;
+footer h2 {
+  text-align: center;
 }
 
-footer div {
+/* .footer img {
   width: 100%;
-  height: 500px;
-  background-color: #efefef;
-}
+} */
+
+
 
 @media only screen and (max-width: 640px) {
   .information {
@@ -183,4 +202,10 @@ footer div {
   .information div p {
     border-left: none;
   }
+
+  /* .footer img {
+    width: 320px;
+    text-align: center;
+  } */
+
 }

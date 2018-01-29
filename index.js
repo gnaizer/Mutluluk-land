@@ -18,15 +18,3 @@ $('a.scrollTo').on('click', function() {
   return false;
 })
 
-
-
-
-
-Skype.ui({
-  "name": "chat",
-  "element": "SkypeButton_Call_konuku31_1",
-  "participants": ["konuku31"],
-  "imageColor": "white",
-  "imageSize": 16,
-  "margin": 0
-  });
